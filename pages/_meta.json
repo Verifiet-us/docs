@@ -2,10 +2,7 @@
   "index": "Introduction",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
-  "Changelog": {
-    "title": "changelog",
-    "type": "page"
-  },
+  
   "Support": {
     "title": "Support ↗",
     "type": "page",
