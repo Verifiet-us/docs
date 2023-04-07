@@ -2,11 +2,11 @@
   "index": "Introduction",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "changelhjhsdjhog",
+  "Changelog": {
+    "title": "changelog",
     "type": "page"
   },
-  "contact": {
+  "Support": {
     "title": "Support ↗",
     "type": "page",
     "href": "https://help.verifiet.com/",
