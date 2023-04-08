@@ -16,7 +16,7 @@ Accessible and customizable components that you can copy and paste into your app
 - [x] ~Navigation Menu~
 - [x] ~Figma~
 
-## Get Started
+## Get Starte
 
 Starting a new project? Check out the Next.js template.
 
