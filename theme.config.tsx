@@ -6,7 +6,7 @@ const config: DocsThemeConfig = {
   
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
+    text: '© Verifiet Inc. 2023 ',
   },
 }
 
