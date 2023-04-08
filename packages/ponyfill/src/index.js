@@ -1,0 +1,42 @@
+module.exports =
+  typeof EdgeRuntime === 'string' ? edge() : require('@edge-runtime/primitives')
+
+function edge() {
+  return {
+    AbortController,
+    AbortSignal,
+    atob,
+    Blob,
+    btoa,
+    console,
+    crypto,
+    Crypto,
+    CryptoKey,
+    DOMException,
+    Event,
+    EventTarget,
+    fetch,
+    FetchEvent,
+    File,
+    FormData,
+    Headers,
+    PromiseRejectionEvent,
+    ReadableStream,
+    ReadableStreamBYOBReader,
+    ReadableStreamDefaultReader,
+    Request,
+    Response,
+    structuredClone,
+    SubtleCrypto,
+    TextDecoder,
+    TextDecoderStream,
+    TextEncoder,
+    TextEncoderStream,
+    TransformStream,
+    URL,
+    URLPattern,
+    URLSearchParams,
+    WritableStream,
+    WritableStreamDefaultWriter,
+  }
+}
