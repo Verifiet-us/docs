@@ -1,12 +1,23 @@
-<div align="center">
-  <img src="https://edge-runtime.vercel.app/og-image.png?v=3" alt="edge-runtime logo">
-</div>
+# Nextra Docs Template 
 
-###### [Documentation](https://edge-runtime.vercel.app/) | [CLI](https://edge-runtime.vercel.app/cli)
+This is a template for creating documentation with [Nextra](https://nextra.site).
+
+[**Live Demo →**](https://nextra-docs-template.vercel.app)
+
+[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+
+## Quick Start
+
+Click the button to clone this repository and deploy it on Vercel:
+
+[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+
+## Local Development
+
+First, run `pnpm i` to install the dependencies.
+
+Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
 ## License
 
-**edge-runtime** © [Vercel](https://vercel.com), released under the [MPLv2](https://github.com/vercel/edge-runtime/blob/main/LICENSE.md) License.<br>
-Authored and maintained by [Vercel](https://vercel.com) with help from [contributors](https://github.com/vercel/edge-runtime/contributors).
-
-> [vercel.com](https://vercel.com) · GitHub [Vercel](https://github.com/vercel) · Twitter [@vercel](https://twitter.com/vercel)
+This project is licensed under the MIT License.
