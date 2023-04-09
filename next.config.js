@@ -1,6 +1,6 @@
-const withNextra = require('nextra')({
-  theme: 'nextra-theme-docs',
-  themeConfig: './theme.config.tsx',
-})
+const withMarkdoc = require('@markdoc/next.js');
 
-module.exports = withNextra()
+module.exports =
+  withMarkdoc(/* config: https://markdoc.io/docs/nextjs#options */)({
+    pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdoc'],
+  });
