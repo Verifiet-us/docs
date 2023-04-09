@@ -26,7 +26,7 @@ export function CodeBlock({children, 'data-language': language}) {
           /* Override Prism styles */
           .code :global(pre[class*='language-']) {
             text-shadow: none;
-            border-radius: 4px;
+            border-radius: 15px;
           }
         `}
       </style>
