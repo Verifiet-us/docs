@@ -20,7 +20,7 @@ export function TopNav({children}) {
             justify-content: space-between;
             gap: 1rem;
             padding: 1rem 2rem;
-            background: white;
+            background: #fff;
             border-bottom: 1px solid var(--border-color);
           }
           nav :global(a) {
@@ -29,7 +29,7 @@ export function TopNav({children}) {
           section {
             display: flex;
             gap: 1rem;
-            padding: 0;
+            padding: 10;
           }
         `}
       </style>

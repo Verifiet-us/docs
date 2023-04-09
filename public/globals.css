@@ -13,7 +13,7 @@ body {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  color: rgba(60, 66, 87, 1);
+  color:#212121;
   margin: 0;
 }
 
@@ -31,5 +31,5 @@ h2 {
 }
 
 a {
-  color: rgba(75, 85, 99, 1);
+  color: #707070;
 }
