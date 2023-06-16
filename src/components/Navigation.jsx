@@ -212,7 +212,9 @@ export function Navigation(props) {
   return (
     <nav {...props}>
       <ul role="list">
-        <TopLevelNavItem href="#">Support</TopLevelNavItem>
+        <TopLevelNavItem href="https://help.verifiet.com">Support</TopLevelNavItem>
+        <TopLevelNavItem href="https://status.verifiet.com">API Status</TopLevelNavItem>
+        <TopLevelNavItem href="https://verifiet.com/changelog">Changelog</TopLevelNavItem>
         {navigation.map((group, groupIndex) => (
           <NavigationGroup
             key={group.title}
