@@ -67,9 +67,13 @@ export const Header = forwardRef(function Header({ className }, ref) {
       </div>
       <div className="flex items-center gap-5">
         <nav className="hidden md:block">
-          <ul role="list" className="flex items-center gap-8">
+        <ul role="list" className="flex items-center gap-8">
             <TopLevelNavItem href="https://help.verifiet.com">Support</TopLevelNavItem>
+            <TopLevelNavItem href="https://verifiet.com/changelog">Changelog</TopLevelNavItem>
+            <TopLevelNavItem href="https://status.verifiet.com">API Status</TopLevelNavItem>
           </ul>
+
+    
         </nav>
         <div className="hidden md:block md:h-5 md:w-px md:bg-zinc-900/10 md:dark:bg-white/15" />
         <div className="flex gap-4">
@@ -77,7 +81,7 @@ export const Header = forwardRef(function Header({ className }, ref) {
           <ModeToggle />
         </div>
         <div className="hidden min-[416px]:contents">
-          <Button href="https://dashboard.verifiet">Sign in</Button>
+          <Button href="https://dashboard.verifiet.com">Sign in</Button>
         </div>
       </div>
     </motion.div>
