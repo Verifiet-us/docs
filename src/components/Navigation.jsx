@@ -199,7 +199,7 @@ export const navigation = [
   {
     title: 'API Reference',
     links: [
-      { title: 'Domain Check', href: '/contacts' },
+      { title: 'Domain Check', href: '/domain' },
       { title: 'Conversations', href: '/conversations' },
       { title: 'Messages', href: '/messages' },
       { title: 'Groups', href: '/groups' },
