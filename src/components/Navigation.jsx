@@ -197,9 +197,9 @@ export const navigation = [
     ],
   },
   {
-    title: 'Resources',
+    title: 'API Reference',
     links: [
-      { title: 'Contacts', href: '/contacts' },
+      { title: 'Domain Check', href: '/contacts' },
       { title: 'Conversations', href: '/conversations' },
       { title: 'Messages', href: '/messages' },
       { title: 'Groups', href: '/groups' },
