@@ -1,7 +1,7 @@
 
-# Developer Docs
+# Verifiet Developer Documentation
 
-A brief description of what this project does and who it's for
+Welcome to the Verifiet Developer Documentation, your comprehensive guide to integrating Verifiet's API into your applications. This documentation provides detailed information on how to interact with Verifiet's services, enabling you to seamlessly incorporate powerful verification capabilities into your software.
 
 ## Getting Started
 
@@ -18,28 +18,4 @@ Next, run the development server:
 npm run dev
 ```
 
-Now the project will be reachable at localhost:3000
-
-## Global search
-
-By default this template uses [Algolia DocSearch](https://docsearch.algolia.com) for the global search. DocSearch is free for open-source projects, and you can sign up for an account on their website. Once your DocSearch account is ready, update the following [environment variables](https://nextjs.org/docs/basic-features/environment-variables) in your project with the values provided by Algolia:
-
-```
-NEXT_PUBLIC_DOCSEARCH_APP_ID=
-NEXT_PUBLIC_DOCSEARCH_API_KEY=
-NEXT_PUBLIC_DOCSEARCH_INDEX_NAME=
-
-```
-
-## Learn more
-
-To learn more about the technologies used in this site template, see the following resources:
-
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [Framer Motion](https://www.framer.com/docs/) - the official Framer Motion documentation
-- [MDX](https://mdxjs.com/) - the official MDX documentation
-- [Algolia Autocomplete](https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/what-is-autocomplete/) - the official Algolia Autocomplete documentation
-- [Zustand](https://docs.pmnd.rs/zustand/getting-started/introduction) - the official Zustand documentation
-
+Now the project will be reachable at `localhost:3000`
