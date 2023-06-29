@@ -29,6 +29,8 @@ export default function App({ Component, pageProps }) {
         )}
         <meta name="description" content={pageProps.description} />
       </Head>
+
+      
       <MDXProvider components={mdxComponents}>
         <Layout {...pageProps}>
           <Component {...pageProps} />
