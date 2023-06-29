@@ -206,6 +206,12 @@ export const navigation = [
       { title: 'Attachments', href: '/attachments' },
     ],
   },
+  {
+    title: 'Resources',
+    links: [
+      { title: 'Domain Check', href: '/domain' },
+    ],
+  },
 ]
 
 export function Navigation(props) {
