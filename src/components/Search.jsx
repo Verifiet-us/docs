@@ -158,7 +158,7 @@ function SearchResult({ result, resultIndex, autocomplete, collection }) {
   return (
     <li
       className={clsx(
-        'group block cursor-default px-4 py-3 aria-selected:bg-black dark:aria-selected:bg-zinc-800/50',
+        'group block cursor-default px-4 py-3 aria-selected:bg-zinc-50 dark:aria-selected:bg-zinc-800/50',
         resultIndex > 0 && 'border-t border-zinc-100 dark:border-zinc-800'
       )}
       aria-labelledby={`${id}-hierarchy ${id}-title`}
