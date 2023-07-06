@@ -183,42 +183,22 @@ function NavigationGroup({ group, className }) {
   )
 }
 
+//Navigation Schema
+
 export const navigation = [
   {
-    title: 'Guides',
+    title: 'page',
     links: [
-      { title: 'Introduction', href: '/' },
-      { title: 'Quickstart', href: '/quickstart' },
-      { title: 'SDKs', href: '/sdks' },
-      { title: 'Authentication', href: '/authentication' },
-      { title: 'Pagination', href: '/pagination' },
-      { title: 'Errors', href: '/errors' },
-      { title: 'Webhooks', href: '/webhooks' },
+      { title: 'Page', href: '/' },
     ],
   },
-  {
-    title: 'API Reference',
-    links: [
-      { title: 'Domain Check', href: '/domain' },
-      { title: 'Conversations', href: '/conversations' },
-      { title: 'Messages', href: '/messages' },
-      { title: 'Groups', href: '/groups' },
-      { title: 'Attachments', href: '/attachments' },
-    ],
-  },
-  {
-    title: 'Resources',
-    links: [
-      { title: 'Domain Check', href: '/domain' },
-    ],
-  },
+
 ]
 
 export function Navigation(props) {
   return (
     <nav {...props}>
       <ul role="list">
-        <TopLevelNavItem href="https://help.verifiet.com">Support</TopLevelNavItem>
         <TopLevelNavItem href="https://status.verifiet.com">API Status</TopLevelNavItem>
         <TopLevelNavItem href="https://verifiet.com/changelog">Changelog</TopLevelNavItem>
         {navigation.map((group, groupIndex) => (
