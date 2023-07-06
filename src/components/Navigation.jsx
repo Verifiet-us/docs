@@ -183,18 +183,13 @@ function NavigationGroup({ group, className }) {
   )
 }
 
+//Navigation Schema
+
 export const navigation = [
   {
     title: 'page',
     links: [
       { title: 'Page', href: '/' },
-    ],
-  },
-  {
-    title: 'Section',
-    links: [
-      { title: 'Page', href: '/' },
-
     ],
   },
 
