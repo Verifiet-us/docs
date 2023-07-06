@@ -81,7 +81,7 @@ function VisibleSectionHighlight({ group, pathname }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { delay: 0.2 } }}
       exit={{ opacity: 0 }}
-      className="absolute inset-x-0 top-0 bg-gray-100 will-change-transform dark:bg-neutral-900"
+      className="absolute inset-x-0 top-0 bg-gray-100 will-change-transform dark:bg-zinc-900/50"
       style={{ borderRadius: 8, height, top }}
     />
   )
