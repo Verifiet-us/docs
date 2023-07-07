@@ -29,7 +29,6 @@ export default function App({ Component, pageProps }) {
         )}
         <meta name="description" content={pageProps.description} />
 
-        {/* Add the Intercom code snippet here */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
