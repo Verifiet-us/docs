@@ -220,9 +220,10 @@ export const navigation = [
   {
     title: 'Verifiet Data',
     links: [
-      { title: 'Registrars Risk Index', href: 'https://verifiet.com/pricing' },
-      { title: 'Industry Codes', href: '/feedback-link' },
-      { title: 'Country Codes', href: '/feedback-link' },
+      { title: 'Registrars Risk Index', href: '/registrars' },
+      { title: 'Industry Classification', href: '/industries' },
+      { title: 'Region Classification', href: '/regions' },
+      { title: 'Phone Carriers', href: '/carriers' },
     ],
   },
 
