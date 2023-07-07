@@ -218,6 +218,15 @@ export const navigation = [
   },
 
   {
+    title: 'Verifiet Data',
+    links: [
+      { title: 'Registrars Risk Index', href: 'https://verifiet.com/pricing' },
+      { title: 'Industry Codes', href: '/feedback-link' },
+      { title: 'Country Codes', href: '/feedback-link' },
+    ],
+  },
+
+  {
     title: 'Resources',
     links: [
       { title: 'Pricing ↗', href: 'https://verifiet.com/pricing' },
