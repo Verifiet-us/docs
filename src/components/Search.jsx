@@ -57,7 +57,7 @@ function useAutocomplete() {
                     params: {
                       hitsPerPage: 5,
                       highlightPreTag:
-                        '<mark class="underline bg-transparent text-emerald-500">',
+                        '<mark class="underline bg-transparent text-emerald-100">',
                       highlightPostTag: '</mark>',
                     },
                   },
