@@ -96,7 +96,7 @@ function ActivePageMarker({ group, pathname }) {
   return (
     <motion.div
       layout
-      className="absolute left-2 h-6 w-px bg-neutral-700"
+      className="absolute left-2 h-6 w-px bg-neutral-300"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { delay: 0.2 } }}
       exit={{ opacity: 0 }}
@@ -190,7 +190,10 @@ export const navigation = [
     title: 'Overview',
     links: [
       { title: 'Introduction', href: '/' },
+      { title: 'Quickstart', href: '/quickstart' },
       { title: 'Authentication', href: '/authentication' },
+      { title: 'Pagination', href: '/pagination' },
+      { title: 'Webhooks', href: '/webhooks' },
       { title: 'Error Handling', href: '/error' },
       { title: 'Versioning', href: '/version' },
       { title: 'Rate Limits', href: '/ratelimit' },
@@ -220,10 +223,8 @@ export const navigation = [
   {
     title: 'Verifiet Data',
     links: [
-      { title: 'Registrars Risk Index', href: '/registrars' },
-      { title: 'Industry Classification', href: '/industries' },
-      { title: 'Region Classification', href: '/regions' },
-      { title: 'Phone Carriers', href: '/carriers' },
+      { title: 'Industry Codes', href: '/industries' },
+      { title: 'Country Codes', href: '/countries' },
     ],
   },
 

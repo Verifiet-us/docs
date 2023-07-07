@@ -10,8 +10,8 @@ import { UsersIcon } from '@/components/icons/UsersIcon'
 
 const resources = [
   {
-    href: '/contacts',
-    name: 'Contacts',
+    href: '/trustreport',
+    name: 'Company Risk Score',
     description:
       'Learn about the contact model and how to create, retrieve, update, delete, and list contacts.',
     icon: UserIcon,
@@ -24,8 +24,8 @@ const resources = [
     },
   },
   {
-    href: '/conversations',
-    name: 'Conversations',
+    href: '/docverify',
+    name: 'Document Verification',
     description:
       'Learn about the conversation model and how to create, retrieve, update, delete, and list conversations.',
     icon: ChatBubbleIcon,
@@ -38,8 +38,8 @@ const resources = [
     },
   },
   {
-    href: '/messages',
-    name: 'Messages',
+    href: '/aml',
+    name: 'AML Screening',
     description:
       'Learn about the message model and how to create, retrieve, update, delete, and list messages.',
     icon: EnvelopeIcon,
@@ -52,8 +52,8 @@ const resources = [
     },
   },
   {
-    href: '/groups',
-    name: 'Groups',
+    href: '/company',
+    name: 'Global Company Search',
     description:
       'Learn about the group model and how to create, retrieve, update, delete, and list groups.',
     icon: UsersIcon,
@@ -64,10 +64,12 @@ const resources = [
   },
 ]
 
+// color of resouces Icons
+
 function ResourceIcon({ icon: Icon }) {
   return (
-    <div className="flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900/5 ring-1 ring-zinc-900/25 backdrop-blur-[2px] transition duration-300 group-hover:bg-white/50 group-hover:ring-zinc-900/25 dark:bg-white/7.5 dark:ring-white/15 dark:group-hover:bg-emerald-300/10 dark:group-hover:ring-emerald-400">
-      <Icon className="h-5 w-5 fill-zinc-700/10 stroke-zinc-700 transition-colors duration-300 group-hover:stroke-zinc-900 dark:fill-white/10 dark:stroke-zinc-400 dark:group-hover:fill-emerald-300/10 dark:group-hover:stroke-emerald-400" />
+    <div className="flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900/5 ring-1 ring-zinc-900/25 backdrop-blur-[2px] transition duration-300 group-hover:bg-white/50 group-hover:ring-zinc-900/25 dark:bg-white/7.5 dark:ring-white/15 dark:group-hover:bg-zinc-300/10 dark:group-hover:ring-zinc-400">
+      <Icon className="h-5 w-5 fill-zinc-700/10 stroke-zinc-700 transition-colors duration-300 group-hover:stroke-zinc-900 dark:fill-white/10 dark:stroke-zinc-400 dark:group-hover:fill-zinc-300/10 dark:group-hover:stroke-zinc-400" />
     </div>
   )
 }

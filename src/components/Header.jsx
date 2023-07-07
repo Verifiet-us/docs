@@ -68,8 +68,8 @@ export const Header = forwardRef(function Header({ className }, ref) {
       <div className="flex items-center gap-5">
         <nav className="hidden md:block">
         <ul role="list" className="flex items-center gap-8">
-            <TopLevelNavItem href="https://verifiet.com/changelog">Changelog</TopLevelNavItem>
-            <TopLevelNavItem href="https://status.verifiet.com">API Status</TopLevelNavItem>
+            <TopLevelNavItem href="https://verifiet.com/changelog">Changelog ↗</TopLevelNavItem>
+            <TopLevelNavItem href="https://status.verifiet.com">API Status ↗</TopLevelNavItem>
 
           </ul>
 
