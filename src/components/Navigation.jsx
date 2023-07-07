@@ -191,6 +191,8 @@ export const navigation = [
     links: [
       { title: 'Introduction', href: '/' },
       { title: 'Authentication', href: '/authentication' },
+      { title: 'Pagination', href: '/pagination' },
+      { title: 'Webhooks', href: '/webhooks' },
       { title: 'Error Handling', href: '/error' },
       { title: 'Versioning', href: '/version' },
       { title: 'Rate Limits', href: '/ratelimit' },
