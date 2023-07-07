@@ -10,7 +10,7 @@ import { UsersIcon } from '@/components/icons/UsersIcon'
 
 const resources = [
   {
-    href: '/contacts',
+    href: '/trustreport',
     name: 'Contacts',
     description:
       'Learn about the contact model and how to create, retrieve, update, delete, and list contacts.',
@@ -24,8 +24,8 @@ const resources = [
     },
   },
   {
-    href: '/conversations',
-    name: 'Conversations',
+    href: '/docverify',
+    name: 'Document Verification',
     description:
       'Learn about the conversation model and how to create, retrieve, update, delete, and list conversations.',
     icon: ChatBubbleIcon,
@@ -38,8 +38,8 @@ const resources = [
     },
   },
   {
-    href: '/messages',
-    name: 'Messages',
+    href: '/aml',
+    name: 'AML Screening',
     description:
       'Learn about the message model and how to create, retrieve, update, delete, and list messages.',
     icon: EnvelopeIcon,
@@ -52,8 +52,8 @@ const resources = [
     },
   },
   {
-    href: '/groups',
-    name: 'Groups',
+    href: '/domain',
+    name: 'Domain Check',
     description:
       'Learn about the group model and how to create, retrieve, update, delete, and list groups.',
     icon: UsersIcon,
