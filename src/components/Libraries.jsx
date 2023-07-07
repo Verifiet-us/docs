@@ -11,35 +11,49 @@ import logoRuby from '@/images/logos/ruby.svg'
 const libraries = [
   {
     href: '#',
-    name: 'PHP',
+    name: 'PHP (Coming Soon)',
     description:
       'A popular general-purpose scripting language that is especially suited to web development.',
     logo: logoPhp,
   },
   {
     href: '#',
-    name: 'Ruby',
+    name: 'Ruby (Coming Soon)',
     description:
       'A dynamic, open source programming language with a focus on simplicity and productivity.',
     logo: logoRuby,
   },
   {
     href: '#',
-    name: 'Node.js',
+    name: 'Node.js (Coming Soon)',
     description:
       'Node.js® is an open-source, cross-platform JavaScript runtime environment.',
     logo: logoNode,
   },
   {
     href: '#',
-    name: 'Python',
+    name: 'Python (Coming Soon)',
     description:
       'Python is a programming language that lets you work quickly and integrate systems more effectively.',
     logo: logoPython,
   },
   {
     href: '#',
-    name: 'Go',
+    name: 'Go (Coming Soon)',
+    description:
+      'An open-source programming language supported by Google with built-in concurrency.',
+    logo: logoGo,
+  },
+  {
+    href: '#',
+    name: '.Net (Coming Soon)',
+    description:
+      'An open-source programming language supported by Google with built-in concurrency.',
+    logo: logoGo,
+  },
+  {
+    href: '#',
+    name: 'Java (Coming Soon)',
     description:
       'An open-source programming language supported by Google with built-in concurrency.',
     logo: logoGo,
