@@ -212,7 +212,17 @@ export const navigation = [
       { title: 'SSL Check', href: '/ssl' },
       { title: 'Website Screenshot', href: '/screenshot' },
       { title: 'Website Content Analyzer', href: '/sitecontent' },
-      { title: 'Site Status', href: '/sitecontent' },
+      { title: 'Site Status', href: '/sitestatus' },
+      { title: 'Website Traffic Analyzer', href: '/sitetraffic' },
+    ],
+  },
+
+  {
+    title: 'Verifiet Data',
+    links: [
+      { title: 'Registrars Risk Index', href: 'https://verifiet.com/pricing' },
+      { title: 'Industry Codes', href: '/feedback-link' },
+      { title: 'Country Codes', href: '/feedback-link' },
     ],
   },
 
