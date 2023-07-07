@@ -11,7 +11,7 @@ import { UsersIcon } from '@/components/icons/UsersIcon'
 const resources = [
   {
     href: '/trustreport',
-    name: 'Contacts',
+    name: 'Company Risk Score',
     description:
       'Learn about the contact model and how to create, retrieve, update, delete, and list contacts.',
     icon: UserIcon,
@@ -52,8 +52,8 @@ const resources = [
     },
   },
   {
-    href: '/domain',
-    name: 'Domain Check',
+    href: '/company',
+    name: 'Global Company Search',
     description:
       'Learn about the group model and how to create, retrieve, update, delete, and list groups.',
     icon: UsersIcon,
