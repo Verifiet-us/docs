@@ -212,7 +212,8 @@ export const navigation = [
       { title: 'SSL Check', href: '/ssl' },
       { title: 'Website Screenshot', href: '/screenshot' },
       { title: 'Website Content Analyzer', href: '/sitecontent' },
-      { title: 'Site Status', href: '/sitecontent' },
+      { title: 'Site Status', href: '/sitestatus' },
+      { title: 'Website Traffic Analyzer', href: '/sitetraffic' },
     ],
   },
 
