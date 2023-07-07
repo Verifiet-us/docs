@@ -88,7 +88,7 @@ function ResourcePattern({ mouseX, mouseY, ...gridProps }) {
         />
       </div>
       <motion.div
-        className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#e5e5e5] to-[#e5e5e5] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-[#353535] dark:to-[#353535]"
+        className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#f2f2f2] to-[#f2f2f2] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-[#151515] dark:to-[#151515]"
         style={style}
       />
       <motion.div

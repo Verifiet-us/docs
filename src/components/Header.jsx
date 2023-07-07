@@ -70,6 +70,7 @@ export const Header = forwardRef(function Header({ className }, ref) {
         <ul role="list" className="flex items-center gap-8">
             <TopLevelNavItem href="https://verifiet.com/changelog">Changelog</TopLevelNavItem>
             <TopLevelNavItem href="https://status.verifiet.com">API Status</TopLevelNavItem>
+
           </ul>
 
     

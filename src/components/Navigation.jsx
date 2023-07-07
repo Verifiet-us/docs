@@ -81,7 +81,7 @@ function VisibleSectionHighlight({ group, pathname }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { delay: 0.2 } }}
       exit={{ opacity: 0 }}
-      className="absolute inset-x-0 top-0 bg-gray-100 will-change-transform dark:bg-zinc-900/50"
+      className="absolute inset-x-0 top-0 bg-gray-100 will-change-transform dark:bg-zinc-900/80"
       style={{ borderRadius: 8, height, top }}
     />
   )
@@ -187,9 +187,43 @@ function NavigationGroup({ group, className }) {
 
 export const navigation = [
   {
-    title: 'page',
+    title: 'Overview',
     links: [
-      { title: 'Page', href: '/' },
+      { title: 'Introduction', href: '/' },
+      { title: 'Authentication', href: '/authentication' },
+      { title: 'Error Handling', href: '/error' },
+      { title: 'Versioning', href: '/version' },
+      { title: 'Rate Limits', href: '/ratelimit' },
+      { title: 'SDKs', href: '/sdk' },
+    ],
+  },
+
+  {
+    title: 'Verifiet API',
+    links: [
+      { title: 'Trust Score', href: '/trustscore' },
+      { title: 'Domain Check', href: '/domain' },
+      { title: 'Company Search', href: '/company' },
+      { title: 'AML Search', href: '/aml' },
+      { title: 'Phone Check', href: '/phone' },
+      { title: 'Document Verification', href: '/docverify' },
+      { title: 'Email Check', href: '/email' },
+      { title: 'Trademark Search', href: '/trademark' },
+      { title: 'SSL Check', href: '/ssl' },
+      { title: 'Website Screenshot', href: '/screenshot' },
+      { title: 'Website Content Analyzer', href: '/sitecontent' },
+      { title: 'Site Status', href: '/sitecontent' },
+    ],
+  },
+
+  {
+    title: 'Resources',
+    links: [
+      { title: 'Pricing ↗', href: 'https://verifiet.com/pricing' },
+      { title: 'Give a Feedback ↗', href: '/feedback-link' },
+      { title: 'Report a Problem ↗', href: '/feedback-link' },
+      { title: 'Join Verifiet ↗', href: '/join' },
+      { title: 'Legal Resources ↗', href: 'https://verifiet.com/legal' },
     ],
   },
 
