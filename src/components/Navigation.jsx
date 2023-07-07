@@ -222,9 +222,8 @@ export const navigation = [
   {
     title: 'Verifiet Data',
     links: [
-      { title: 'Registrars Risk Index', href: 'https://verifiet.com/pricing' },
-      { title: 'Industry Codes', href: '/feedback-link' },
-      { title: 'Country Codes', href: '/feedback-link' },
+      { title: 'Industry Codes', href: '/industries' },
+      { title: 'Country Codes', href: '/countries' },
     ],
   },
 
