@@ -7,56 +7,58 @@ import logoNode from '@/images/logos/node.svg'
 import logoPhp from '@/images/logos/php.svg'
 import logoPython from '@/images/logos/python.svg'
 import logoRuby from '@/images/logos/ruby.svg'
+import logoJava from '@/images/logos/java.svg'
+import logoDotnet from '@/images/logos/dotnet.svg'
 
 const libraries = [
   {
-    href: '#',
+    href: 'https://github.com/Verifiet-us/verifiet-php',
     name: 'PHP (Coming Soon)',
     description:
       'A popular general-purpose scripting language that is especially suited to web development.',
     logo: logoPhp,
   },
   {
-    href: '#',
+    href: 'https://github.com/Verifiet-us/verifiet-ruby',
     name: 'Ruby (Coming Soon)',
     description:
       'A dynamic, open source programming language with a focus on simplicity and productivity.',
     logo: logoRuby,
   },
   {
-    href: '#',
+    href: 'https://github.com/Verifiet-us/verifiet-node',
     name: 'Node.js (Coming Soon)',
     description:
       'Node.js® is an open-source, cross-platform JavaScript runtime environment.',
     logo: logoNode,
   },
   {
-    href: '#',
+    href: 'https://github.com/Verifiet-us/verifiet-python',
     name: 'Python (Coming Soon)',
     description:
       'Python is a programming language that lets you work quickly and integrate systems more effectively.',
     logo: logoPython,
   },
   {
-    href: '#',
+    href: 'https://github.com/Verifiet-us/verifiet-go',
     name: 'Go (Coming Soon)',
     description:
       'An open-source programming language supported by Google with built-in concurrency.',
     logo: logoGo,
   },
   {
-    href: '#',
+    href: 'https://github.com/Verifiet-us/verifiet-dotnet',
     name: '.Net (Coming Soon)',
     description:
       'An open-source programming language supported by Google with built-in concurrency.',
-    logo: logoGo,
+    logo: logoDotnet,
   },
   {
-    href: '#',
+    href: 'https://github.com/Verifiet-us/verifiet-java',
     name: 'Java (Coming Soon)',
     description:
       'An open-source programming language supported by Google with built-in concurrency.',
-    logo: logoGo,
+    logo: logoJava,
   },
 ]
 
