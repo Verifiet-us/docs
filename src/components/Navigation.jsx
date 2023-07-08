@@ -207,6 +207,7 @@ export const navigation = [
       { title: 'Trust Score', href: '/trustscore' },
       { title: 'Domain Check', href: '/domain' },
       { title: 'Company Search', href: '/company' },
+      { title: 'VAT Check', href: '/vat' },
       { title: 'AML Search', href: '/aml' },
       { title: 'Phone Check', href: '/phone' },
       { title: 'Document Verification', href: '/docverify' },
@@ -223,8 +224,11 @@ export const navigation = [
   {
     title: 'Verifiet Data',
     links: [
-      { title: 'Industry Codes', href: '/industries' },
-      { title: 'Country Codes', href: '/countries' },
+      { title: 'Industry Index', href: '/industries' },
+      { title: 'Country Index', href: '/countries' },
+      { title: 'Corporate Records', href: '/corporaterecords' },
+      { title: 'AML Screening', href: '/amlscreen' },
+
     ],
   },
 
@@ -256,7 +260,7 @@ export function Navigation(props) {
         ))}
         <li className="sticky bottom-0 z-10 mt-6 min-[416px]:hidden">
           <Button href="#" variant="filled" className="w-full">
-            Sign in
+            Dashboard
           </Button>
         </li>
       </ul>

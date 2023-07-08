@@ -1,8 +1,7 @@
 export const description =
   'On this page, we’ll dive into the different contact endpoints you can use to manage contacts programmatically.'
 
-# Domain Check
-
+# Domain Check API
 
 As the name suggests, contacts are a core part of Protocol — the very reason Protocol exists is so you can have sescure conversations with your contacts. On this page, we'll dive into the different contact endpoints you can use to manage contacts programmatically. We'll look at how to query, create, update, and delete contacts. {{ className: 'lead' }}
 
@@ -42,7 +41,7 @@ The contact model contains all the information about your contacts, such as thei
 
 ---
 
-## Risk Score {{ tag: 'GET', label: '/v1/domain' }}
+## List all contacts {{ tag: 'GET', label: '/v1/contacts' }}
 
 <Row>
   <Col>
@@ -70,7 +69,7 @@ The contact model contains all the information about your contacts, such as thei
     ```
 
     ```js
-    import ApiClient from '@verifiet/verifiet-api'
+    import ApiClient from '@example/protocol-api'
 
     const client = new ApiClient(token)
 
@@ -86,18 +85,6 @@ The contact model contains all the information about your contacts, such as thei
     ```
 
     ```php
-    $client = new \Protocol\ApiClient($token);
-
-    $client->contacts->list();
-    ```
-
-    ```go
-    $client = new \Protocol\ApiClient($token);
-
-    $client->contacts->list();
-    ```
-
-    ```java
     $client = new \Protocol\ApiClient($token);
 
     $client->contacts->list();
@@ -132,7 +119,7 @@ The contact model contains all the information about your contacts, such as thei
 
 ---
 
-## Domain Registration {{ tag: 'GET', label: '/v1/domain' }}
+## Create a contact {{ tag: 'POST', label: '/v1/contacts' }}
 
 <Row>
   <Col>
