@@ -207,6 +207,7 @@ export const navigation = [
       { title: 'Trust Score', href: '/trustscore' },
       { title: 'Domain Check', href: '/domain' },
       { title: 'Company Search', href: '/company' },
+      { title: 'VAT Check', href: '/vat' },
       { title: 'AML Search', href: '/aml' },
       { title: 'Phone Check', href: '/phone' },
       { title: 'Document Verification', href: '/docverify' },
