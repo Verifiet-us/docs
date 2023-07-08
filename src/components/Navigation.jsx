@@ -224,8 +224,11 @@ export const navigation = [
   {
     title: 'Verifiet Data',
     links: [
-      { title: 'Industry Codes', href: '/industries' },
-      { title: 'Country Codes', href: '/countries' },
+      { title: 'Industry Index', href: '/industries' },
+      { title: 'Country Index', href: '/countries' },
+      { title: 'Corporate Records', href: '/corporaterecords' },
+      { title: 'AML Screening', href: '/amlscreen' },
+
     ],
   },
 
