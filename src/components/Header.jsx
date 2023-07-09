@@ -43,8 +43,8 @@ export const Header = forwardRef(function Header({ className }, ref) {
         !isInsideMobileNavigation &&
           'backdrop-blur-sm dark:backdrop-blur lg:left-72 xl:left-80',
         isInsideMobileNavigation
-          ? 'bg-white dark:bg-black'
-          : 'bg-white/[var(--bg-opacity-light)] dark:bg-zinc-950/[var(--bg-opacity-dark)]'
+          ? 'bg-stone-100 dark:bg-black'
+          : 'bg-stone-100/[var(--bg-opacity-light)] dark:bg-stone-950/[var(--bg-opacity-dark)]'
       )}
       style={{
         '--bg-opacity-light': bgOpacityLight,
@@ -55,7 +55,7 @@ export const Header = forwardRef(function Header({ className }, ref) {
         className={clsx(
           'absolute inset-x-0 top-full h-px transition',
           (isInsideMobileNavigation || !mobileNavIsOpen) &&
-            'bg-zinc-900/7.5 dark:bg-white/7.5'
+            'bg-stone-950/7.5 dark:bg-white/7.5'
         )}
       />
       <Search />
@@ -75,7 +75,7 @@ export const Header = forwardRef(function Header({ className }, ref) {
 
     
         </nav>
-        <div className="hidden md:block md:h-5 md:w-px md:bg-zinc-900/10 md:dark:bg-white/15" />
+        <div className="hidden md:block md:h-5 md:w-px md:bg-stone-950/10 md:dark:bg-white/15" />
         <div className="flex gap-4">
           <MobileSearch />
           <ModeToggle />
