@@ -81,7 +81,7 @@ function VisibleSectionHighlight({ group, pathname }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { delay: 0.2 } }}
       exit={{ opacity: 0 }}
-      className="absolute inset-x-0 top-0 bg-stone-200 will-change-transform dark:bg-stone-900/80"
+      className="absolute inset-x-0 top-0 bg-gray-200/80 will-change-transform dark:bg-zinc-900/70"
       style={{ borderRadius: 8, height, top }}
     />
   )
@@ -205,19 +205,6 @@ export const navigation = [
     title: 'Verifiet API',
     links: [
       { title: 'Trust Score', href: '/trustscore' },
-      { title: 'Domain Check', href: '/domain' },
-      { title: 'Company Search', href: '/company' },
-      { title: 'VAT Check', href: '/vat' },
-      { title: 'AML Search', href: '/aml' },
-      { title: 'Phone Check', href: '/phone' },
-      { title: 'Document Verification', href: '/docverify' },
-      { title: 'Email Check', href: '/email' },
-      { title: 'Trademark Search', href: '/trademark' },
-      { title: 'SSL Check', href: '/ssl' },
-      { title: 'Website Screenshot', href: '/screenshot' },
-      { title: 'Website Content Analyzer', href: '/sitecontent' },
-      { title: 'Site Status', href: '/sitestatus' },
-      { title: 'Website Traffic Analyzer', href: '/sitetraffic' },
     ],
   },
 
