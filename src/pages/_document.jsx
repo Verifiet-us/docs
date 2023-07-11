@@ -41,7 +41,7 @@ export default function Document() {
       <Head>
         <script dangerouslySetInnerHTML={{ __html: modeScript }} />
       </Head>
-      <body className="bg-white antialiased dark:bg-black">
+      <body className="bg-white antialiased dark:bg-neutral-900">
         <Main />
         <NextScript />
       </body>
